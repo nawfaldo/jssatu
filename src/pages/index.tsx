@@ -5,10 +5,10 @@ import { signIn, signOut, useSession } from "next-auth/react";
 
 import { api } from "~/utils/api";
 import StudentsTable from "~/components/StudentsTable";
-import CreateStudentBox from "~/components/createStudentBox";
 import ViewStudentBox from "~/components/ViewStudentBox";
 import { useRouter } from "next/router";
 import EditStudentBox from "~/components/EditStudentBox";
+import CreateStudentBox from "~/components/CreateStudentBox";
 
 const Home: NextPage = () => {
   // const hello = api.example.hello.useQuery({ text: "from tRPC" });
